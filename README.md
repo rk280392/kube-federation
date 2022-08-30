@@ -67,7 +67,7 @@ check the installation using:
 
       $ kubectl -n kube-federation-system get kubefedclusters
 
-      This should show all the cluster in **Ready=True** state. If not check above steps and troubleshoot.
+   This should show all the cluster in **Ready=True** state. If not check above steps and troubleshoot.
 
   ### 4 - Test the federation cluster:
 
