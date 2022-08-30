@@ -76,7 +76,7 @@ check the installation using:
 
       federate the namsespace using kubefedctl: 
 
-         $kubefedctl federate ns testing
+         $ kubefedctl federate ns testing
 
       check if it is replicated in other clusters:  
 
