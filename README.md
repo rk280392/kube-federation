@@ -16,7 +16,8 @@ kubefedctl: v0.10.0 prerelease
 # Steps
 
   ### 1- Create Clusters
-      Create multiple clusters, one for master and others for workers. I used minikube on local system to set this up with profiles master, cluster1, cluster2
+
+    Create multiple clusters, one for master and others for workers. I used minikube on local system to set this up with profiles master, cluster1, cluster2
 
       $ for profile in master cluster1 cluster2; do minikube start -p $profile; done
 
