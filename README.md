@@ -71,14 +71,14 @@ check the installation using:
 
   ### 4 - Test the federation cluster:
 
-       create cluster in master cluster:  
+   Create cluster in master cluster:  
 
          $ kubectl create ns testing --context=master
 
-      federate the namsespace using kubefedctl: 
+   Federate the namsespace using kubefedctl: 
 
          $ kubefedctl federate ns testing
 
-      check if it is replicated in other clusters:  
+   Check if it is replicated in other clusters:  
 
          $ kubectl get ns --context=cluster1/cluster2
